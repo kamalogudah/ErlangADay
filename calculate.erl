@@ -1,5 +1,7 @@
 -module(calculate).
 
+-author('mcpaul2058@gmail.com').
+
 -export([area/1, area_circle_test/0,
 	 area_rectangle_test/0, area_square_test/0]).
 
