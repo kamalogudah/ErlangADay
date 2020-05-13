@@ -28,6 +28,11 @@ average(X) -> sum(X) / len(X).
 sum([H|T]) -> H + sum(T);
 sum([]) -> 0.
 
+% sumAcc(X) -> sumAcc(X,0);
+% sumAcc([], S) -> S;
+% sumAcc([H|T], S) -> sumAcc(T, H + S).
+
+
 len([_|T]) -> 1 + len(T);
 len([]) -> 0.
 
